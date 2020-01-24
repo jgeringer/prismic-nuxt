@@ -64,7 +64,7 @@ export default {
       // console.log('test:: ', req.headers['accept-language'].split(',')[0])
       // Query to get blog home content
 
-      console.log('store! ', store.state.i18n.locale)
+      console.log('store: ', store.state.i18n.locale)
 
       const document = await api.getSingle('blog_home', 
           // {lang : 'sv-se'}

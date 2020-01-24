@@ -51,39 +51,6 @@ module.exports = {
   */
   modules: [
     ['nuxt-i18n', {
-
-/*
-['nuxt-i18n', {
-      locales: ['en', 'sv'],
-      defaultLocale: 'en',
-      vueI18n: {
-        fallbackLocale: 'en',
-        messages: {
-          en: {
-            welcome: 'Welcome'
-          },
-          fr: {
-            welcome: 'Bienvenue'
-          },
-          es: {
-            welcome: 'Bienvenido'
-          }
-        }
-      }
-    }]
-*/
-
-      // parsePages: false,   // Disable acorn parsing
-      // pages: {
-      //   about: {
-      //     sv: '/chi-siamo', // -> mydomain.com/chi-siamo
-      //     en: '/about',     // -> mydomain.com/en/about
-      //   }
-      // },
-      // paths: {
-      //   it: '/chi-siamo',
-      //   en: '/about'
-      // },
       locales: [
         {
           name: 'Sweden',

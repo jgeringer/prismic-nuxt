@@ -6,8 +6,6 @@
             v-if="locale.code !== $i18n.iso"
             :key="locale.code"
             :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
-
-            <h3>cur:</h3>
     </div>
 </template>
 
